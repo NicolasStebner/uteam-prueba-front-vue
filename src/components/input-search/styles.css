@@ -1,0 +1,17 @@
+.input-search-container{
+  display:flex;
+  gap:10px;
+  justify-content: center;
+}
+.input {
+  padding: 2px 5px;
+  border-radius: 5px;
+}
+.button{
+  padding: 7px;
+  border: none;
+  border-radius: 5px;
+}
+.button:hover{
+  cursor:pointer;
+}

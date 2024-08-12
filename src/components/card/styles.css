@@ -1,0 +1,33 @@
+.card {
+  display:flex;
+  flex-direction: column;
+  max-width: 236px;
+  height: 350px;
+  background: var(--dark-gray);
+  background-color: light;
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  color:white;
+  text-align: left;
+  gap:20px;
+  clip-path: polygon(0 0, 100% 0, 100% 90%, 90% 100%, 0 100%);
+}
+
+.card:hover{
+  transform: scale(1.01);
+  background: var(--light-gray);
+  border-color:var(--marvel-color);
+  cursor: pointer;
+}
+
+.name{
+  color:white;
+  font-weight: bold;
+  padding-left: 10px;
+}
+
+.image{
+  width: 100%;
+  height: 80%;
+  border-radius: 8px;
+}
